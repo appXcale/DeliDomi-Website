@@ -37,12 +37,8 @@ Developer: Najmul Huda Eimon
     .home1.banner .text-area h1 {
         font-size: 64px;
     }
-    .home1.banner .image-area{
-        bottom: -75px;
-    }
-    .home1.banner .image-area img{
-        width: 80%;
-    }
+
+
     /* about */
     .home1.about .content {
         padding-right: 80px;
@@ -82,11 +78,9 @@ Developer: Najmul Huda Eimon
     .home1.banner .text-area p {
         width: 100%;
     }
-    .home1.banner .image-area{
-        bottom: 0;
-    }
-    .home1.banner .image-area img{
-        width: 66%;
+
+    .home1.banner .image-area img:last-child{
+        display: none;
     }
     
     /* feature */
@@ -156,8 +150,7 @@ Developer: Najmul Huda Eimon
         width: 100%;
     }
     .home1.banner .image-area{
-        position: relative;
-        bottom: 0;
+        display: none;
     }
     
     /* feature */
