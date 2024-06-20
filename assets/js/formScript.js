@@ -70,8 +70,8 @@ function enviarFormulario(event) {
     // Crear el objeto de datos a enviar
     const data = {
         subject: "DeliDomi email Comunity:",
-        senderName: "juan.rueda@appxcale.com",
-        senderEmail: "juan.rueda@appxcale.com",
+        senderName: "info@appxcale.com",
+        senderEmail: "info@appxcale.com",
         name: "",
         email: email,
         number: "",
