@@ -276,6 +276,12 @@ Developer: Najmul Huda Eimon
     .menubar .right-part ul li {
         padding-left: 30px;
     }
+    .responsive-image{
+        display: ruby!important;
+    }
+    .image-width{
+        width: 100%;
+    }
     /* banner */
     .home1.banner {
         padding-top: 120px;
@@ -484,6 +490,12 @@ Developer: Najmul Huda Eimon
     .home1.banner .content {
         margin-left: 0;
         margin-right: 0;
+    }
+    .responsive-image{
+        display: ruby!important;
+    }
+    .image-width{
+        width: 100%;
     }
     .home1.banner .text-area{
         padding-top: 50px;

@@ -49,8 +49,6 @@
 
     <!-- responsive -->
     <link rel="stylesheet" href="assets/css/responsive.css">
-
-    <script type="text/javascript" src="./assets/js/formScript.js"></script>
 </head>
 
 <body>
@@ -140,9 +138,10 @@
                 <div class="col-lg-12">
                     <div class="content">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 order-1 order-lg-0">
+                            <div class="col-lg-6 col-md-6 order-0 order-sm-0 order-xs-0 order-lg-0">
                                 <div class="text-area">
-                                    <h1 class="wow fadeInUp" style="margin-right: 20px;" data-wow-delay="0.2s" data-wow-duration="1s">Que es
+                                    <h1 class="wow fadeInUp" style="margin-right: 20px;" data-wow-delay="0.2s"
+                                        data-wow-duration="1s">Que es
                                         DeliDomi?</h1>
                                     <!-- <h2 class="wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">Con los mejores precios</h2> -->
                                     <p class="wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">DeliDomi es una
@@ -151,7 +150,7 @@
                                         restaurantes una herramienta eficiente, ágil y confiable, que fortalezca la
                                         relación con sus clientes y mejore la gestión de sus domicilios.</p>
                                     <ul class="d-flex wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1s">
-                                        <li>
+                                        <li style="margin-bottom: 20px;">
                                             <a href="https://apps.apple.com/co/app/delidomi/id6468589913?l=en-GB"
                                                 class="playstore-button" target="_blank">
                                                 <span class="icon">
@@ -176,11 +175,13 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-md-4 order-0 order-lg-1">
+                            <div class="col-lg-5 col-md-4 order-sm-1 order-lg-1 border-1">
                                 <div class="image-area text-end wow fadeInRight" data-wow-delay="0.3s"
                                     data-wow-duration="1s">
-                                    <img src="assets/images/hero-deli-2.png" alt="Banner" width="300px">
-                                    <img src="assets/images/hero-deli.png" alt="Banner" width="300px">
+                                    <img class="image-width" src="assets/images/hero-deli-2.png" alt="Banner"
+                                        width="300px">
+                                    <img class="image-width" src="assets/images/hero-deli.png" alt="Banner"
+                                        width="300px">
                                 </div>
                             </div>
                         </div>
@@ -221,8 +222,8 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="form-area wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s">
-                        <form id="Formulario">
-                            <input type="email" id="email" placeholder="Tu Email" class="inputs" required>
+                        <form id="Formulario" style="display: flex; width:100%">
+                            <input type="email" id="Email" placeholder="Tu Email" class="inputs" required>
                             <button id="buttonEmail" type="submit"><i class="fab fa-telegram-plane"></i></button>
                         </form>
                     </div>
@@ -694,28 +695,12 @@
                                     <i class="fas fa-phone-alt"></i>
                                     <p>3023561205</p>
                                 </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="far fa-envelope"></i>
-                                    <p>restaurantes@appxcale.com</p>
+                                <li  style="position: relative;" class="d-flex align-items-center">
+                                    <i  style="position: absolute; top: 10px;" class="far fa-envelope"></i>
+                                    <p style="position: absolute; top:15px; left: 60px;">restaurantes@appxcale.com</p>
                                 </li>
                             </ul>
                             <br>
-                            <p class="desc">Soporte y Asistencia: ¿Tienes alguna pregunta o necesitas ayuda? Nuestro
-                                equipo de soporte está aquí para asistirte en todo momento.</p>
-                            <ul class="address">
-                                <!-- <li class="d-flex align-items-center">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <p>Bucaramanga</p>
-                                </li> -->
-                                <li class="d-flex align-items-center">
-                                    <i class="fas fa-phone-alt"></i>
-                                    <p>3023561205</p>
-                                </li>
-                                <li class="d-flex align-items-center">
-                                    <i class="far fa-envelope"></i>
-                                    <p>asistencia@appxcale.com</p>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-6">
@@ -725,8 +710,8 @@
                             </div>
                             <ul class="navigation">
                                 <li><a href="index.html">Pagina Principal</a></li>
-                                <li><a href="terminos.html">Terminos y Condiciones</a></li>
-                                <li><a href="privacidad.html">Politica de Privacidad</a></li>
+                                <li><a id="Terms">Terminos y Condiciones</a></li>
+                                <li><a id="Policy">Politica de Privacidad</a></li>
                             </ul>
                         </div>
                     </div>
@@ -743,16 +728,26 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="content">
                             <div class="title">
-                                <h5>Inscribete</h5>
+                                <h5>
+                                    Soporte y Asistencia:
+                                </h5>
                             </div>
-                            <p>Enterate de ofertas y nuevos desarrollos de nuestra app</p>
-                            <div class="form-area">
-                                <!-- <form id="Formulario">
-                                    <input type="email" id="email" placeholder="Tu Email" class="inputs" required>
-                                    <button id="buttonEmail" type="submit"><i
-                                            class="fab fa-telegram-plane"></i></button>
-                                </form> -->
-                            </div>
+                            <p> ¿Tienes alguna pregunta o necesitas ayuda? Nuestro
+                                equipo de soporte está aquí para asistirte en todo momento.</p>
+                            <ul class="address">
+                                <!-- <li class="d-flex align-items-center">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <p>Bucaramanga</p>
+                                </li> -->
+                                <li class="d-flex align-items-center">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <p>3023561205</p>
+                                </li>
+                                <li style="position: relative;" class="d-flex align-items-center">
+                                    <i style="position: absolute; top: 10px;" class="far fa-envelope"></i>
+                                    <p style="position: absolute; top:15px; left: 60px;">asistencia@appxcale.com</p>
+                                </li>
+                            </ul>
                             <!-- <ul class="d-flex social">
                                 <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
@@ -773,8 +768,8 @@
                     <div class="col-lg-12">
                         <div class="bg">
                             <div class="row">
-                                <div class="col-lg-6 col-md-6">
-                                    <p>Copyright &copy; 2024 Todos los derechos reservados</p>
+                                <div class="col-lg-12 col-md-12">
+                                    <p style="text-align:center">Copyright &copy; 2024 Todos los derechos reservados</p>
                                 </div>
                                 <div class="col-lg-6 col-md-6">
                                     <ul class="d-flex justify-content-end">
@@ -802,11 +797,8 @@
                     <h5 class="modal-title" id="exampleModalLabel">search here</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
-                    <div class="search-area">
-                        <input type="search" placeholder="search..." class="inputs">
-                        <button class="search-btn"><i class="flaticon-loupe"></i></button>
-                    </div>
+                <div class="modal-body" id="modalBodyContent">
+                   
                 </div>
             </div>
         </div>
@@ -857,6 +849,11 @@
 
     <!-- script -->
     <script src="assets/js/script.js"></script>
+
+    <script type="text/javascript" src="./assets/js/formScript.js"></script>
+
+    
+
 </body>
 
 </html>
