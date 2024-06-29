@@ -1,39 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333333;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #f8b400;
+            border-radius: 8px 8px 0 0;
+        }
+        .header img {
+            max-width: 150px;
+        }
+        .content {
+            padding: 20px;
+        }
+        .content h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .order-details {
+            margin-bottom: 20px;
+        }
+        .order-details h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .order-details p {
+            margin: 5px 0;
+        }
+        .items {
+            margin-bottom: 20px;
+        }
+        .items table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .items table, .items th, .items td {
+            border: 1px solid #dddddd;
+        }
+        .items th, .items td {
+            padding: 10px;
+            text-align: left;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #777777;
+        }
+        .footer a {
+            color: #f8b400;
+            text-decoration: none;
+        }
+    </style>
 </head>
-
 <body>
-    <div style="width: 80%; height: 100%; border-radius: 24px; border: 1px solid black; background-color: #D90D58;">
-        <div style=" display: flex; height: 45px; width:100%; padding-left: 20px;">
-            <div style="color:white; align-items: center; justify-content: center;">
-                <p style=" font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">CLIENTE: Mi Nombre</p>
-            </div>
+    <div class="container">
+        <div class="header">
+            <img src="https://delidomi.netlify.app/assets/images/logo2.webp" alt="DeliDomi Logo">
         </div>
-        <div
-            style=" min-height: 100px; display: flex; background-color: antiquewhite; align-items: center; justify-content: space-around;">
-            <div>Item 1</div>
-            <div>Precio 1</div>
-        </div>
-        <div style="background-color: antiquewhite; padding-bottom: 30px;">
+        <div class="content">
+            <h1>Confirmacion de Orden</h1>
+            <p>Gracias por tu compra, aqui estan los detalles:</p>
 
-            <div
-                style="align-items: center; justify-content: center; display: flex; width: 80%; margin:auto; background-color: rgb(127, 255, 163); border-radius: 23px; height: 50px;">
-                <p style=" font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 500;">Pago: Efectivo</p>
+            <div class="order-details">
+                <h2>Detalles de la Orden</h2>
+                <p><strong>Numero de Orden:</strong> #123456</p>
+                <p><strong>Fecha:</strong> June 29, 2024</p>
+                <p><strong>Direccion de Entrega:</strong> 123 Main Street, City, Country</p>
             </div>
-        </div>
 
-        <div style=" display: flex; height: 45px; width:100%; padding-left: 20px;">
-            <div style="color:rgb(255, 242, 0); align-items: center; justify-content: center;">
-                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600;">Precio Final: 12000</p>
+            <div class="items">
+                <h2>Productos Ordenados</h2>
+                <table>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Pizza Margherita</td>
+                        <td>1</td>
+                        <td>$12.99</td>
+                    </tr>
+                    <tr>
+                        <td>Caesar Salad</td>
+                        <td>2</td>
+                        <td>$9.99</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate Cake</td>
+                        <td>1</td>
+                        <td>$6.99</td>
+                    </tr>
+                </table>
             </div>
+
+            <div class="order-total">
+                <h2>Total</h2>
+                <p><strong>Total:</strong> $39.96</p>
+            </div>
+
+            <p>Si tienes dudas acerca de tu orden, por favor contacta al restaurante directamente: <a href="mailto:email@dominio.com">email@dominio.com</a>.</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 DeliDomi. Todos los derechos reservados.</p>
+            <p>Bucaramanga, Colombia</p>
+            <p><a href="#">Darse de Baja</a></p>
         </div>
     </div>
-
 </body>
-
 </html>
