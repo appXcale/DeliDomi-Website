@@ -264,6 +264,11 @@ Developer: Najmul Huda Eimon
 ====================================================*/
 @media(min-width: 576px) and (max-width: 767px){
     /*---------------- home 1 --------------*/
+    .hide-mobile {
+        display: none;
+        visibility: hidden;
+    }   
+
     /* section-title */
     .section-title h2 {
         font-size: 40px;
@@ -488,6 +493,14 @@ Developer: Najmul Huda Eimon
 ====================================================*/
 @media(min-width: 320px) and (max-width: 575px){
     /*---------------- home 1 --------------*/
+    .hide-mobile {
+        display: none;
+        visibility: hidden;
+    }
+    .flaticon {
+        display: none;
+        visibility: hidden;
+      }
     .p-120{
         padding: 100px 0;
     }
@@ -659,6 +672,9 @@ Developer: Najmul Huda Eimon
     .image-area img {
         width: 45%;
         }
+    #Formulario button {
+        width: 30%;
+    }    
     /* newsletter */
     .home2.newsletter .content {
         padding-bottom: 30px;
