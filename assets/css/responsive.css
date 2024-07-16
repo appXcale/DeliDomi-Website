@@ -268,6 +268,31 @@ Developer: Najmul Huda Eimon
     .section-title h2 {
         font-size: 40px;
     }
+    /* Media query for mobile view */
+    .image-area img {
+      width: 45%;
+    }
+
+    .home2.newsletter .form-area button {
+        width: 20%;
+    }
+    #Formulario {
+        justify-content: flex-end;
+      }
+    
+      #Formulario input {
+        flex: 1;
+      }
+    
+      #Formulario button {
+        margin-left: 10px; /* Adjust as needed for spacing */
+        width: 30%;
+      }
+
+      .flaticon {
+        display: none;
+        visibility: hidden;
+      }
     /* menubar */
     .menubar ,
     .menubar.sticky {
@@ -351,6 +376,9 @@ Developer: Najmul Huda Eimon
     .home1.mobile .content p{
         width: 100%;
     }
+
+
+
     /* client */
     .home1.client .client-slider {
         padding-top: 100px;
@@ -627,6 +655,10 @@ Developer: Najmul Huda Eimon
         text-align: center !important;
         right: 0;
     }
+    /* Media query for mobile view */
+    .image-area img {
+        width: 45%;
+        }
     /* newsletter */
     .home2.newsletter .content {
         padding-bottom: 30px;
