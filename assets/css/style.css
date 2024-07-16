@@ -865,6 +865,22 @@ p {
   bottom: -160px;
 }
 
+/* Ensure the container takes full width */
+.image-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#Formulario {
+  display: flex;
+  width: 100%;
+}
+
+#Formulario button {
+  margin-left: auto;
+}
+
 /*================================================
 6.3: modal
 ==================================================*/
