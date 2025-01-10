@@ -1756,7 +1756,7 @@ p {
 7.3: newsletter
 ==================================================*/
 .home2.newsletter{
-  background: var(--gradient);
+  background: linear-gradient(to bottom,#FDBF01, #F58F01);
 }
 .home2.newsletter .content{
   position: relative;
