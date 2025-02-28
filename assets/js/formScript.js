@@ -41,7 +41,7 @@ var textPolicy = `<h5>AVISO DE PRIVACIDAD
 <h5>ALMACENAMIENTO DE DATOS PERSONALES</h5> <p>DeliDomi almacena los Datos Personales de los Usuarios de manera segura, implementando medidas técnicas y administrativas para protegerlos de acceso, uso o divulgación no autorizados.</p>
 <h5>DERECHOS DEL TITULAR</h5> <p>Los Usuarios, en calidad de Titulares de los Datos Personales, tienen derecho a: (i) Acceder a sus Datos Personales; (ii) Solicitar la actualización y/o rectificación de sus Datos Personales; (iii) Solicitar la eliminación de sus Datos Personales; (iv) Revocar la autorización para el tratamiento de sus Datos Personales.
 </p>
-<h5>CONTACTO</h5> <p>Para cualquier solicitud, queja o reclamo relacionado con el tratamiento de sus Datos Personales, los Usuarios pueden contactar a DeliDomi a través del correo electrónico: info@delidomi.com.</p>
+<h5>CONTACTO</h5> <p>Para cualquier solicitud, queja o reclamo relacionado con el tratamiento de sus Datos Personales, los Usuarios pueden contactar a DeliDomi a través del correo electrónico: clientes@delidomi.com.</p>
 
 `
 // Función para validar el correo electrónico

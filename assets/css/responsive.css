@@ -123,7 +123,10 @@ Developer: Najmul Huda Eimon
     /* menubar */
     .menubar ,
     .menubar.sticky {
-        padding: 10px 0;
+        padding: 3px 0;
+    }
+    .menubar.sticky img{
+        width: 50%;
     }
     .menubar .right-part ul li {
         padding-left: 30px;
@@ -300,7 +303,10 @@ Developer: Najmul Huda Eimon
     /* menubar */
     .menubar ,
     .menubar.sticky {
-        padding: 10px 0;
+        padding: 2px 0;
+    }
+    .menubar.sticky img{
+        width: 50%;
     }
     .menubar .right-part ul li {
         padding-left: 30px;
@@ -401,8 +407,8 @@ Developer: Najmul Huda Eimon
         width: 50%;
         flex-basis: auto;
     }
-    .home1.brand .brand-logo{
-        padding-top: 20px;
+    img.logo {
+        padding-top: 3px;
     }
     /* blog */
     .home1.blog{
@@ -517,7 +523,10 @@ Developer: Najmul Huda Eimon
     /* menubar */
     .menubar ,
     .menubar.sticky {
-        padding: 10px 0;
+        padding: 1px 0;
+    }
+    .menubar.sticky img{
+        width: 50%;
     }
     .menubar .right-part {
         display: none;
@@ -628,8 +637,8 @@ Developer: Najmul Huda Eimon
         width: 50%;
         flex-basis: auto;
     }
-    .home1.brand .brand-logo{
-        padding-top: 20px;
+    img.logo {
+        padding-top: 3px;
     }
     /* blog */
     .home1.blog{

@@ -1,7 +1,8 @@
 .register-section {
     background: linear-gradient(to bottom, #F58F01, #FDBF01);
-    padding: 60px 0;
+    padding: 10px 0;
     overflow: hidden;
+    margin-top: 50px;
 }
 
 .register-section .content {
